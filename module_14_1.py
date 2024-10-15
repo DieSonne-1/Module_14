@@ -1,5 +1,4 @@
 import sqlite3
-import pandas
 
 connection = sqlite3.connect('not_telegram.db')
 cursor = connection.cursor()
