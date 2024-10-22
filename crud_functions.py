@@ -24,6 +24,7 @@ for i in range(1, 5):
                    (f'Продукт {i}', f'Описание {i}', i * 100))
 connection.commit()
 
+
 def get_all_products():
     cursor.execute('SELECT * FROM Products')
     return cursor.fetchall()
